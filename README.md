@@ -1,18 +1,21 @@
 # qrcodesGB
----
-tiny gameboy project aiming to generate qr code on gameboy
+qr code generator from scratch in asm
 ---
 
-## How to use
-- Start game on a keyboard with ASCII set
-- Enter character with A, delete with B
-- Start generation with "start
+![image](img/Capture1.PNG)
+
+![image](img/Capture2.PNG)
+
+---
+## Features
+- qr code generation up to 17 ASCII characters
+- full ASCII keyboard
+- RS ECC codes tested with [sikuli](http://doc.sikuli.org)
 
 ## Build
-use rgbds **v0.4** 
+Use rgbds **v0.4**
 
-### TODO :
-0. restart generation without reset Gameboy
+## TODO :
 1. improve the part that place tiles in OAM
 2. get rid of gingerbread lib
 3. bigger qrcodes (tilesgenerator will probably be useless then)
